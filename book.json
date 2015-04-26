@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "discourse"
+        "discourse",
+        "youtube"
     ],
     "pluginsConfig": {}
 }
