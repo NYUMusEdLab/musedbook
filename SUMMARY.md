@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [README.md](README.md)
-* [Part I](README.md)
+* [Part 1](README.md)
    * [Chapter 1](chapter1.md)
 
