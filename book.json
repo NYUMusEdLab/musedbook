@@ -7,3 +7,14 @@
     "pluginsConfig": {}
 }
 
+{
+    "pluginsConfig": {
+        "discourse": {
+            "url": "community.musedlab.org",
+            "api_key": "A43dc5719d641ad2d32ef56b5ed9d6e8c67199a36d703a4684d4f92c5f3a969f4",
+            "api_username": "Admin",
+            "parent_category_id": 50,
+            "parent_category_name": "lean-launchpad-musedlab"
+        }
+    }
+}
