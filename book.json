@@ -1,7 +1,8 @@
 {
     "plugins": [
         "discourse",
-        "youtube"
+        "youtube",
+        "toc"
     ],
     "pluginsConfig": {}
 }
