@@ -1,1 +1,8 @@
-{}
+{
+    "plugins": [
+        "discourse",
+        "youtube",
+        "toc"
+    ],
+    "pluginsConfig": {}
+}
