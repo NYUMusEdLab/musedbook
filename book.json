@@ -4,10 +4,6 @@
         "youtube",
         "toc"
     ],
-    "pluginsConfig": {}
-}
-
-{
     "pluginsConfig": {
         "discourse": {
             "url": "http://community.musedlab.org",
@@ -18,3 +14,4 @@
         }
     }
 }
+
