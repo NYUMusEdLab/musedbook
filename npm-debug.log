@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'gitbook-plugin-discourse' ]
+2 info using npm@2.8.4
+3 info using node@v0.12.2
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'gitbook-plugin-discourse', null ]
+7 verbose cache add spec gitbook-plugin-discourse
+8 silly cache add parsed spec { raw: 'gitbook-plugin-discourse',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'gitbook-plugin-discourse',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed gitbook-plugin-discourse@*
+10 verbose addNamed "*" is a valid semver range for gitbook-plugin-discourse
+11 silly addNameRange { name: 'gitbook-plugin-discourse', range: '*', hasData: false }
+12 silly mapToRegistry name gitbook-plugin-discourse
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/gitbook-plugin-discourse
+16 verbose addNameRange registry:https://registry.npmjs.org/gitbook-plugin-discourse not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/gitbook-plugin-discourse
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 8:09:32 PM
+20 verbose request id 98a4347737a9c8ac
+21 verbose etag "61LAHK1FUEI7E9POSJU3UZDEC"
+22 http request GET https://registry.npmjs.org/gitbook-plugin-discourse
+23 http 304 https://registry.npmjs.org/gitbook-plugin-discourse
+24 silly get cb [ 304,
+24 silly get   { date: 'Mon, 27 Apr 2015 00:09:32 GMT',
+24 silly get     server: 'Apache',
+24 silly get     via: '1.1 varnish',
+24 silly get     'last-modified': 'Mon, 27 Apr 2015 00:09:33 GMT',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"61LAHK1FUEI7E9POSJU3UZDEC"',
+24 silly get     age: '0',
+24 silly get     'x-served-by': 'cache-iad2120-IAD',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1430093372.937588,VS0,VE353',
+24 silly get     vary: 'Accept',
+24 silly get     'content-length': '0',
+24 silly get     'keep-alive': 'timeout=10, max=50',
+24 silly get     connection: 'Keep-Alive' } ]
+25 verbose etag https://registry.npmjs.org/gitbook-plugin-discourse from cache
+26 verbose get saving gitbook-plugin-discourse to /Users/alexruthmann/.npm/registry.npmjs.org/gitbook-plugin-discourse/.cache.json
+27 silly addNameRange number 2 { name: 'gitbook-plugin-discourse', range: '*', hasData: true }
+28 silly addNameRange versions [ 'gitbook-plugin-discourse',
+28 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.0.6' ] ]
+29 silly addNamed gitbook-plugin-discourse@0.0.6
+30 verbose addNamed "0.0.6" is a plain semver version for gitbook-plugin-discourse
+31 silly cache afterAdd gitbook-plugin-discourse@0.0.6
+32 verbose afterAdd /Users/alexruthmann/.npm/gitbook-plugin-discourse/0.0.6/package/package.json not in flight; writing
+33 verbose afterAdd /Users/alexruthmann/.npm/gitbook-plugin-discourse/0.0.6/package/package.json written
+34 silly install resolved [ { name: 'gitbook-plugin-discourse',
+34 silly install resolved     description: 'plugin for GitBook to post heading to discourse',
+34 silly install resolved     main: 'index.js',
+34 silly install resolved     version: '0.0.6',
+34 silly install resolved     engines: { gitbook: '*' },
+34 silly install resolved     homepage: 'https://github.com/g0v',
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'git+https://github.com/g0v/gitbook-plugin-discourse.git' },
+34 silly install resolved     license: 'MIT',
+34 silly install resolved     bugs: { url: 'https://github.com/g0v/gitbook-plugin-discourse/issues' },
+34 silly install resolved     dependencies: { 'discourse-api': 'git://github.com/yhsiang/discourse-api.git#sync' },
+34 silly install resolved     _id: 'gitbook-plugin-discourse@0.0.6',
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: '3aa6586f3ebdec4117ea91db78afecbc04310141',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/gitbook-plugin-discourse/-/gitbook-plugin-discourse-0.0.6.tgz' },
+34 silly install resolved     _from: 'gitbook-plugin-discourse@*',
+34 silly install resolved     _npmVersion: '1.4.6',
+34 silly install resolved     _npmUser: { name: 'yhsiang', email: 'lyforever62@hotmail.com' },
+34 silly install resolved     maintainers: [ [Object] ],
+34 silly install resolved     directories: {},
+34 silly install resolved     _shasum: '3aa6586f3ebdec4117ea91db78afecbc04310141',
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/gitbook-plugin-discourse/-/gitbook-plugin-discourse-0.0.6.tgz',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install gitbook-plugin-discourse@0.0.6 into /usr/local/lib
+36 info installOne gitbook-plugin-discourse@0.0.6
+37 verbose installOne of gitbook-plugin-discourse to /usr/local/lib not in flight; installing
+38 warn locking Error: EACCES, open '/Users/alexruthmann/.npm/_locks/gitbook-plugin-discourse-ca884822c2e3753f.lock'
+38 warn locking     at Error (native)
+38 warn locking  /Users/alexruthmann/.npm/_locks/gitbook-plugin-discourse-ca884822c2e3753f.lock failed { [Error: EACCES, open '/Users/alexruthmann/.npm/_locks/gitbook-plugin-discourse-ca884822c2e3753f.lock']
+38 warn locking   errno: -13,
+38 warn locking   code: 'EACCES',
+38 warn locking   path: '/Users/alexruthmann/.npm/_locks/gitbook-plugin-discourse-ca884822c2e3753f.lock' }
+39 verbose stack Error: Attempt to unlock /usr/local/lib/node_modules/gitbook-plugin-discourse, which hasn't been locked
+39 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+39 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1013:5)
+39 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1017:20
+39 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+39 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+39 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+39 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+40 verbose cwd /Users/alexruthmann/musedbook
+41 error Darwin 14.3.0
+42 error argv "node" "/usr/local/bin/npm" "install" "-g" "gitbook-plugin-discourse"
+43 error node v0.12.2
+44 error npm  v2.8.4
+45 error Attempt to unlock /usr/local/lib/node_modules/gitbook-plugin-discourse, which hasn't been locked
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
